@@ -11,12 +11,12 @@ if($username === 'Shivani' &&  $password === '12345678'){
     echo "Invalid credentials.";
 }
 }else{
-    echo "Please login form.";
+    echo "Enter your information.";
 }
 ?>
 
 <form action="p41.php" method="POSt">
-    Username: <input type="text" name="username"><br>
-    Password: <input type="password" name="password"><br>
+    Username: <input type="text" name="username"><br><br>
+    Password: <input type="password" name="password"><br><br>
     <button type="submit">Login</button>
 </form>
